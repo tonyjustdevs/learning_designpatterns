@@ -1,0 +1,11 @@
+- [ ] 1. Foundational Design Principles
+- [ ] 2. SOLID Principles
+- [ ] 3. Creational Design Patterns
+- [ ] 4. Structural Design Patterns
+- [ ] 5. Behavioral Design Patterns
+- [ ] 6. Architectural Design Patterns
+- [ ] 7. Concurrency and Asynchronous Patterns
+- [ ] 8. Performance Patterns
+- [ ] 9. Distributed Systems Patterns
+- [ ] 10. Patterns for Testing
+- [ ] 11. Python Anti-Patterns
