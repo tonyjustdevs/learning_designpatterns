@@ -1,3 +1,7 @@
+**Apps Built**
+- [ ] [1-1-PaymentProcessApp](https://github.com/tonyjustdevs/learning_designpatterns/blob/main/1-1-Encapsulation/1-1-PaymentProcessApp.py) | [Issue](https://github.com/tonyjustdevs/learning_designpatterns/issues/16)
+
+
 **Learning Index**
 - [ ] [1. Foundational Design Principles](https://github.com/tonyjustdevs/learning_designpatterns/issues/1)
 - [ ] [2. SOLID Principles](https://github.com/tonyjustdevs/learning_designpatterns/issues/2)
