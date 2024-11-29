@@ -5,3 +5,6 @@
 # test: getter method invocation . #24
 # test: setter method invocation = #25
 
+class Circle():
+  def __init__(self, radius):
+    self._radius = radius #21
