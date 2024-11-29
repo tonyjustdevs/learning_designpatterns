@@ -1,12 +1,13 @@
-- [ ] 1. Foundational Design Principles
-- [ ] 2. SOLID Principles
-- [ ] 3. Creational Design Patterns
-- [ ] 4. Structural Design Patterns
-- [ ] 5. Behavioral Design Patterns
-- [ ] 6. Architectural Design Patterns
-- [ ] 7. Concurrency and Asynchronous Patterns
-- [ ] 8. Performance Patterns
-- [ ] 9. Distributed Systems Patterns
-- [ ] 10. Patterns for Testing
-- [ ] 11. Python Anti-Patterns
+**Learning Index**
+- [ ] [1. Foundational Design Principles](https://github.com/tonyjustdevs/learning_designpatterns/issues/1)
+- [ ] [2. SOLID Principles](https://github.com/tonyjustdevs/learning_designpatterns/issues/2)
+- [ ] [3. Creational Design Patterns](https://github.com/tonyjustdevs/learning_designpatterns/issues/3)
+- [ ] [4. Structural Design Patterns](https://github.com/tonyjustdevs/learning_designpatterns/issues/4)
+- [ ] [5. Behavioral Design Patterns](https://github.com/tonyjustdevs/learning_designpatterns/issues/5)
+- [ ] [6. Architectural Design Patterns](https://github.com/tonyjustdevs/learning_designpatterns/issues/6)
+- [ ] [7. Concurrency and Asynchronous Patterns](https://github.com/tonyjustdevs/learning_designpatterns/issues/7)
+- [ ] [8. Performance Patterns](https://github.com/tonyjustdevs/learning_designpatterns/issues/8)
+- [ ] [9. Distributed Systems Patterns](https://github.com/tonyjustdevs/learning_designpatterns/issues/9)
+- [ ] [10. Patterns for Testing](https://github.com/tonyjustdevs/learning_designpatterns/issues/10)
+- [ ] [11. Python Anti-Patterns](https://github.com/tonyjustdevs/learning_designpatterns/issues/11)
 - [ ] whilst learning to use `uv` package
