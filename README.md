@@ -9,3 +9,4 @@
 - [ ] 9. Distributed Systems Patterns
 - [ ] 10. Patterns for Testing
 - [ ] 11. Python Anti-Patterns
+- [ ] whilst learning to use `uv` package
