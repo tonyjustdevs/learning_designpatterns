@@ -18,4 +18,7 @@ class Circle(): # 21
   def radius(self, new_radius):
     self._radius = new_radius
     # print(f"New radius: {self._radius}")``
+  
+  def __repr__(self):
+    return f"Circle(name={self.name!r}, _radius={self._radius!r})"
 
