@@ -14,4 +14,8 @@ class Circle(): # 21
   def radius(self):
     return self._radius
   
+  @radius.setter # 23
+  def radius(self, new_radius):
+    self._radius = new_radius
+    # print(f"New radius: {self._radius}")``
 
