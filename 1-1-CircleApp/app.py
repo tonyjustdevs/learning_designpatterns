@@ -21,4 +21,9 @@ class Circle(): # 21
   
   def __repr__(self):
     return f"Circle(name={self.name!r}, _radius={self._radius!r})"
+  
+circle = Circle("Sir Cumference",69)
+
+print(circle)
+print(circle.radius) #24
 
