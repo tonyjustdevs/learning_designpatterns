@@ -26,4 +26,6 @@ circle = Circle("Sir Cumference",69)
 
 print(circle)
 print(circle.radius) #24
+circle.radius=420 #25
+print(circle.radius)
 
