@@ -10,4 +10,8 @@ class Circle(): # 21
     self.name: str = name
     self._radius: int = radius #21
   
+  @property # 22
+  def radius(self):
+    return self._radius
+  
 
