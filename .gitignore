@@ -2,3 +2,5 @@
 tony_*
 .env
 *.pyc
+*.lock
+*.toml
