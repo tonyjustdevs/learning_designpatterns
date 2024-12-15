@@ -18,6 +18,7 @@ class XmlExtractor():
     def parsed_data(self):
         return self.tree
       
+      
 import os
 
 # 1.  get project root directory
@@ -29,3 +30,15 @@ movies_json_PATH = project_dir_STR/Path("movies.json")
 
 # 2b. person xml path
 person_xml_relo_PATH = project_dir_STR/Path("person.xml")
+# person_xml_abs_PATH = Path("/home/tonydevs/learn/design_patterns/tony_files/3-Creational-Design-Patterns/3-1-Factory-Pattern/ExtractFactoryApp/person.xml")
+
+# 3. create data instances
+movies_json_INSTANCE = JsonExtractor(movies_json_PATH)
+person_xml_INSTANCE = XmlExtractor(person_xml_relo_PATH)
+
+
+
+# 3. create factory 
+from pathlib import Path
+def data_extractor_factory(file_path: Path):
+    pass
