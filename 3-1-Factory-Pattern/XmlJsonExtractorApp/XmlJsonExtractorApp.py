@@ -41,4 +41,5 @@ person_xml_INSTANCE = XmlExtractor(person_xml_relo_PATH)
 # 3. create factory 
 from pathlib import Path
 def data_extractor_factory(file_path: Path):
-    pass
+    ext = file_path.name.split(".")[-1] # json or xml
+    
