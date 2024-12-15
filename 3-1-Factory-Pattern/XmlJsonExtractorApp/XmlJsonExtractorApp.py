@@ -10,3 +10,10 @@ class JsonExtractor():
     @property
     def parsed_data(self):
         return self.data
+    
+class XmlExtractor():
+    def __init__(self, file_xml_PATH: Path):
+        self.tree = ET.parse(source=file_xml_PATH)
+    @property
+    def parsed_data(self):
+        return self.tree
