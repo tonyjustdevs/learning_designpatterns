@@ -7,3 +7,6 @@ class JsonExtractor():
         self.data = {}
         with open(file_path_json) as f:
             self.data = json.load(f)
+    @property
+    def parsed_data(self):
+        return self.data
