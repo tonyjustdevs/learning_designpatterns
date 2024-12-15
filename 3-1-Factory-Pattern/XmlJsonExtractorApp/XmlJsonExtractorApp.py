@@ -5,3 +5,5 @@ import xml.etree.ElementTree as ET
 class JsonExtractor():
     def __init__(self, file_path_json: Path):
         self.data = {}
+        with open(file_path_json) as f:
+            self.data = json.load(f)
