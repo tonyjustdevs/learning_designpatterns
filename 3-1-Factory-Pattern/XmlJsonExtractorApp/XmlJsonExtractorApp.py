@@ -21,25 +21,16 @@ class XmlExtractor():
       
 import os
 
-# 1.  get project root directory
-project_dir_STR = os.getcwd()
+project_dir_STR = os.getcwd() # 1.  get project root directory
 
 # 2.  get data file paths
-# 2a. movies json path
-movies_json_PATH = project_dir_STR/Path("movies.json")
+movies_json_PATH = project_dir_STR/Path("movies.json") # 2a. movies json path
 
-# 2b. person xml path
-person_xml_relo_PATH = project_dir_STR/Path("person.xml")
-# person_xml_abs_PATH = Path("/home/tonydevs/learn/design_patterns/tony_files/3-Creational-Design-Patterns/3-1-Factory-Pattern/ExtractFactoryApp/person.xml")
+person_xml_relo_PATH = project_dir_STR/Path("person.xml") # 2b. person xml path
 
-# 3. create data instances
-movies_json_INSTANCE = JsonExtractor(movies_json_PATH)
+movies_json_INSTANCE = JsonExtractor(movies_json_PATH) # 3. create data instances
 person_xml_INSTANCE = XmlExtractor(person_xml_relo_PATH)
 
-
-
-# 3. create factory 
-from pathlib import Path
 def data_extractor_factory(file_path: Path):
     ext = file_path.name.split(".")[-1] # json or xml
     
@@ -50,6 +41,14 @@ def data_extractor_factory(file_path: Path):
         print("processing xml")
         return XmlExtractor(file_path)
     else:
-        # raise ValueError(f"Apologies Master, I do not compute 🤖 .{ext}")
         raise ValueError(f"Do not compute 🤖 .{ext!r}")
 
+movies_factory_json_INSTANCE = data_extractor_factory(movies_json_PATH)
+data_list = movies_factory_json_INSTANCE.parsed_data
+print(data_list[0])
+
+person_factory_xml_INSTANCE = data_extractor_factory(person_xml_relo_PATH)
+print(person_factory_xml_INSTANCE.parsed_data.getroot())
+
+# Test: Unexpected extension 'txt'
+data_instance = data_extractor_factory(file_path=project_dir_STR/Path("yolo.txt")) # Expected: ValueError
