@@ -17,3 +17,15 @@ class XmlExtractor():
     @property
     def parsed_data(self):
         return self.tree
+      
+import os
+
+# 1.  get project root directory
+project_dir_STR = os.getcwd()
+
+# 2.  get data file paths
+# 2a. movies json path
+movies_json_PATH = project_dir_STR/Path("movies.json")
+
+# 2b. person xml path
+person_xml_relo_PATH = project_dir_STR/Path("person.xml")
