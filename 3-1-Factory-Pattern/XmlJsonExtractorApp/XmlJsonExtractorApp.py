@@ -46,3 +46,6 @@ def data_extractor_factory(file_path: Path):
     if ext == 'json':
         print("processing json")
         return JsonExtractor(file_path)
+    elif ext == 'xml':
+        print("processing xml")
+        return XmlExtractor(file_path)
