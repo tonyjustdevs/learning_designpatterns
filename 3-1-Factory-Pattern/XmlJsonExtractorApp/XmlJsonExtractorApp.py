@@ -49,3 +49,7 @@ def data_extractor_factory(file_path: Path):
     elif ext == 'xml':
         print("processing xml")
         return XmlExtractor(file_path)
+    else:
+        # raise ValueError(f"Apologies Master, I do not compute 🤖 .{ext}")
+        raise ValueError(f"Do not compute 🤖 .{ext!r}")
+
