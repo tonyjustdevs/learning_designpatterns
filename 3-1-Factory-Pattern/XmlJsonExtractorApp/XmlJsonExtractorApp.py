@@ -43,3 +43,6 @@ from pathlib import Path
 def data_extractor_factory(file_path: Path):
     ext = file_path.name.split(".")[-1] # json or xml
     
+    if ext == 'json':
+        print("processing json")
+        return JsonExtractor(file_path)
