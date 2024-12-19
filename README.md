@@ -4,6 +4,7 @@
 - [x] [Issue](https://github.com/tonyjustdevs/learning_designpatterns/issues/29) | [1-2-CarApp](https://github.com/tonyjustdevs/learning_designpatterns/tree/main/1-2-CompositionOverInheritance/CarAppSingleScript) 
 - [x] [Issue](https://github.com/tonyjustdevs/learning_designpatterns/issues/36) | [1-3-HumanBeingApp](https://github.com/tonyjustdevs/learning_designpatterns/tree/main/1-3-ProgramToInterfaces/HumanBeingApp) | [Blog Post](https://tonyjustdevs.github.io/blog/posts/notes/coding/22-interfaces-over-implementation.html)
 - [x] [Issue](https://github.com/tonyjustdevs/learning_designpatterns/issues/46) | [3-1-XmlJsonExtractorApp](https://github.com/tonyjustdevs/learning_designpatterns/tree/main/3-1-Factory-Pattern/XmlJsonExtractorApp)
+- [x] [Issue](https://github.com/tonyjustdevs/learning_designpatterns/issues/42) | [3-3-HouseBuilderApp](https://github.com/tonyjustdevs/learning_designpatterns/tree/main/3-3-Builder-Pattern/HouseBuilderApp)
 
 **Learning Index**
 - [ ] [1. Foundational Design Principles](https://github.com/tonyjustdevs/learning_designpatterns/issues/1)
